@@ -1,4 +1,4 @@
-giname: API Automation JAVA + Maven
+giname: MINI PROJECT TEST WEB UI AUTOMATION JAVA
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
   test:
-    name: TEST API AUTOMATION
+    name: MINI PROJECT TEST WEB UI AUTOMATION
     runs-on: ubuntu-latest
     steps:
       - name: Test API
